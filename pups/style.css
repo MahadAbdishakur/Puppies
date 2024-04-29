@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap') /* CSS from google fonts */
+body{
+	  
+	font-family: 'Sixtyfour', sans-serif;
+	margin:0;
+}
+h1 {
+    font-family: 'Cinzel', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: black;
+    text-shadow: 1px 2px 3px rgba(0, 128, 0, 0.5);
+}
+ h2, .box-title {
+    font-family: 'Single Day', cursive;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.8), 0 0 0.5em rgba(0, 0, 255, 0.5);
+}
+h3 {
+    font-family: 'Playfair Display', cursive;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(85, 138, 187, 0.5);
+}
+ .fa{
+	 font-size: 2em;
+	 color: green;
+ }
+ main{
+	max-width: 1200px;
+ 	margin: 0px auto;
+  
+ }
+ 
+ .col-sm-4 {
+    width: 250px;
+    background-color: #90EE90;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 128, 0, 0.5);
+    text-align: center;
+}
+ .home-hero{
+	 background-image:url(images/header.jpg);
+	 height: 475px;
+	 background-size:cover;
+	 background-position: center;
+	 color: #042837;
+	 padding: 10px 10px 10px 30px;
+ }
+ blockquote{
+	 background-color: #eeeee;
+	 border-left: 10px solid gray;
+	 padding: 30px;
+ }
+ a:link{
+color: green;
+}
+a:visited{
+color: dark green;
+}
+a:hover{
+color: light green;
+}
+a:active{
+color: black;
+}
+
+ nav{
+	 background-color: #111;
+	 border-top: 2px white solid;
+	 border-bottom: 2px black solid;
+	 padding: 5px;
+ }
+nav ul{
+	text-align: center;
+	list-style-type: none;
+	font-size: 3em;
+	margin-right: 10px;
+}
+footer{
+	margin-top:50px;
+	background-color:#111;
+	
+}
+nav li{
+	display: inline;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+span{
+	font-size:1.2em;
+	color: green;
+}
+/* CSS without a media query--applies to all sizes unless overridden */
+h1{
+		font-size:4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width:1024px)
+{
+	h1{
+		font-size:2em;
+	}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+    .puppies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .col-sm-4 {
+        width: 80%; 
+        margin: 0 auto 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
